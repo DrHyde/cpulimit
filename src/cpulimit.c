@@ -111,7 +111,7 @@ static void quit(int sig)
 	//fix ^C little problem
 	printf("\r");
 	fflush(stdout);
-	exit(0);
+	exit(124);
 }
 
 //SIGUSR1 handler
